@@ -164,7 +164,7 @@ class ProfilePage extends React.Component {
                       <img
                         alt="me,myselft,i"
                         className="img-center img-fluid rounded-circle"
-                        src={require("assets/img/mike.jpg")}
+                        src={require("assets/img/pp/Untitled.png")}
                       />
                       <h4 className="title">Pratita Sujatmika</h4>
                     </CardHeader>
