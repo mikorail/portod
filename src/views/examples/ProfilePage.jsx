@@ -243,52 +243,42 @@ class ProfilePage extends React.Component {
                           </Table>
                         </TabPane>
                         <TabPane tabId="tab2">
-                          <Row>
-                            <Label sm="3">Pay to</Label>
-                            <Col sm="9">
-                              <FormGroup>
-                                <Input
-                                  placeholder="e.g. 1Nasd92348hU984353hfid"
-                                  type="text"
-                                />
-                                <FormText color="default" tag="span">
-                                  Please enter a valid address.
-                                </FormText>
-                              </FormGroup>
-                            </Col>
-                          </Row>
-                          <Row>
-                            <Label sm="3">Amount</Label>
-                            <Col sm="9">
-                              <FormGroup>
-                                <Input placeholder="1.587" type="text" />
-                              </FormGroup>
-                            </Col>
-                          </Row>
-                          <Button
-                            className="btn-simple btn-icon btn-round float-right"
-                            color="primary"
-                            type="submit"
-                          >
-                            <i className="tim-icons icon-send" />
-                          </Button>
+                        <Table className="tablesorter" responsive>
+                            <tbody>
+                              <tr>
+                                <td>Born on August,6th 1999</td>
+                              </tr>
+                              <tr>
+                                <td>19 years old</td>
+                              </tr>
+                              <tr>
+                                <td>First of Two children</td>
+                              </tr>
+                            </tbody>
+                          </Table>
                         </TabPane>
                         <TabPane tabId="tab3">
                           <Table className="tablesorter" responsive>
-                            <thead className="text-primary">
-                              <tr>
-                                <th className="header">Latest Crypto News</th>
-                              </tr>
-                            </thead>
                             <tbody>
                               <tr>
-                                <td>The Daily: Nexo to Pay on Stable...</td>
+                                <td>Game</td>
+                                <td>:</td>
+                                <td>Game Development, Game Design, Game Asset Creation, Game Programming</td>
                               </tr>
                               <tr>
-                                <td>Venezuela Begins Public of Nation...</td>
+                              <td>Design</td>
+                                <td>:</td>
+                                <td>Design Idea, Design Thinking, Design Process </td>
                               </tr>
                               <tr>
-                                <td>PR: BitCanna – Dutch Blockchain...</td>
+                                <td>Books</td>
+                                <td>:</td>
+                                <td>Classic Literature, Art Books, Science Books, History Books</td>
+                              </tr>
+                              <tr>
+                                <td>Misc</td>
+                                <td>:</td>
+                                <td>Football, Technology, Art Oriented Technology, AI, Big Data</td>
                               </tr>
                             </tbody>
                           </Table>
