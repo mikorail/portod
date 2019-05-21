@@ -34,11 +34,6 @@ class Footer extends React.Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="/register-page" tag={Link}>
-                    Register
-                  </NavLink>
-                </NavItem>
-                <NavItem>
                   <NavLink to="/profile-page" tag={Link}>
                     Profile
                   </NavLink>

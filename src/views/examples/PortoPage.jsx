@@ -73,14 +73,14 @@ const carouselItems3 = [
     caption: "some game with assets flip"
   },
   {
-    src: require("assets/img/fabien-bazanegue.jpg"),
+    src: require("assets/img/10578641.jpg"),
     altText: "Slide 2",
-    caption: "Somewhere Beyond, United States"
+    caption: "start sculpting some mesh with zbrush"
   },
   {
-    src: require("assets/img/mark-finn.jpg"),
+    src: require("assets/img/2-770x470.png"),
     altText: "Slide 3",
-    caption: "Stocks, United States"
+    caption: "working on pixel art"
   }
 ];
 
@@ -133,24 +133,6 @@ class PortoPage extends React.Component {
                   <p className="profile-description text-left">
                   Things that are done for, but can  be revisited again.
                   </p>
-                  <div className="btn-wrapper pt-3">
-                    <Button
-                      className="btn-simple"
-                      color="primary"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-book-bookmark" /> Bookmark
-                    </Button>
-                    <Button
-                      className="btn-simple"
-                      color="info"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-bulb-63" /> Check it!
-                    </Button>
-                  </div>
                 </Col>
                 <Col lg="6" md="6">
                   <br/>
@@ -193,24 +175,6 @@ class PortoPage extends React.Component {
                   <p className="profile-description text-left">
                     Work in progress.
                   </p>
-                  <div className="btn-wrapper pt-3">
-                    <Button
-                      className="btn-simple"
-                      color="primary"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-book-bookmark" /> Bookmark
-                    </Button>
-                    <Button
-                      className="btn-simple"
-                      color="info"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-bulb-63" /> Check it!
-                    </Button>
-                  </div>
                 </Col>
               </Row>
             </Container>
@@ -234,24 +198,6 @@ class PortoPage extends React.Component {
                   <p className="profile-description text-left">
                     Working on it later
                   </p>
-                  <div className="btn-wrapper pt-3">
-                    <Button
-                      className="btn-simple"
-                      color="primary"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-book-bookmark" /> Bookmark
-                    </Button>
-                    <Button
-                      className="btn-simple"
-                      color="info"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
-                    >
-                      <i className="tim-icons icon-bulb-63" /> Check it!
-                    </Button>
-                  </div>
                 </Col>
                 <Col lg="6" md="6">
                   <Row className="justify-content-between align-items-center">

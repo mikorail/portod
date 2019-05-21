@@ -1,6 +1,7 @@
 import React from "react";
 // react plugin used to create charts
 import { Line } from "react-chartjs-2";
+import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Button,
@@ -70,8 +71,8 @@ class LandingPage extends React.Component {
               <Row className="row-grid justify-content-between align-items-center text-left">
                 <Col lg="6" md="6">
                   <h1 className="text-white">
-                    We keep your coin <br />
-                    <span className="text-white">secured</span>
+                    Ingin Mengenal <br />
+                    <span className="text-white">Tito ?</span>
                   </h1>
                   <p className="text-white mb-3">
                     A wonderful serenity has taken possession of my entire soul,
@@ -79,53 +80,27 @@ class LandingPage extends React.Component {
                     whole heart. I am alone, and feel...
                   </p>
                   <div className="btn-wrapper mb-3">
-                    <p className="category text-success d-inline">
-                      From 9.99%/mo
+                    <p className="category text-success d-inline"
+                      
+                    >
+                      visit contact
                     </p>
                     <Button
                       className="btn-link"
                       color="success"
-                      href="#pablo"
-                      onClick={e => e.preventDefault()}
                       size="sm"
+                      to="/contact-pages" 
+                      tag={Link}
                     >
                       <i className="tim-icons icon-minimal-right" />
                     </Button>
-                  </div>
-                  <div className="btn-wrapper">
-                    <div className="button-container">
-                      <Button
-                        className="btn-icon btn-simple btn-round btn-neutral"
-                        color="default"
-                        href="#pablo"
-                        onClick={e => e.preventDefault()}
-                      >
-                        <i className="fab fa-twitter" />
-                      </Button>
-                      <Button
-                        className="btn-icon btn-simple btn-round btn-neutral"
-                        color="default"
-                        href="#pablo"
-                        onClick={e => e.preventDefault()}
-                      >
-                        <i className="fab fa-dribbble" />
-                      </Button>
-                      <Button
-                        className="btn-icon btn-simple btn-round btn-neutral"
-                        color="default"
-                        href="#pablo"
-                        onClick={e => e.preventDefault()}
-                      >
-                        <i className="fab fa-facebook" />
-                      </Button>
-                    </div>
                   </div>
                 </Col>
                 <Col lg="4" md="5">
                   <img
                     alt="..."
-                    className="img-fluid"
-                    src={require("assets/img/etherum.png")}
+                    className="img-fluid floating"
+                    src={require("assets/img/undraw_adventure_4hum.svg")}
                   />
                 </Col>
               </Row>
